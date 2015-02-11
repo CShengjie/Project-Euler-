@@ -1,0 +1,5 @@
+SM= 2520
+i= (2,11,13,17,19)
+for x in i:
+    SM *= x
+print SM

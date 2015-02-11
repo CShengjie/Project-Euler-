@@ -1,0 +1,8 @@
+a=0
+b=1
+fib=[]
+while b<4000000:
+    a,b= b,a+b
+    if a%2 == 0:
+        fib.append(a)
+print sum(fib)

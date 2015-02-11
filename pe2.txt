@@ -1,0 +1,9 @@
+input=600851475143 
+Factor=2
+while (input>Factor):
+    if input%Factor==0:
+        input=input/Factor
+        Factor=2
+    else:
+        Factor=Factor+1
+print Factor
